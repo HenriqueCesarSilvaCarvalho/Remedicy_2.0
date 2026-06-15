@@ -1,0 +1,67 @@
+.cabecalho {
+
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    height: 100px;
+    width: 100%;
+}
+
+.lado_esquerdo{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.lado_direito {
+
+    margin-left: auto;
+
+}
+/*
+.index_esquerdo{
+
+
+}
+*/
+
+.index_meio{
+
+    background-color: pink;
+
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 5%;
+
+}
+
+#mes_Ano{
+
+    display: flex;
+    
+
+}
+
+/*
+.index_direito{
+
+
+
+}
+*/
+
+
+#logo {
+    height:100px;
+    width:100px;
+}
+
+#icone_usuario {
+
+    height:70px;
+    width:70px;
+
+}
