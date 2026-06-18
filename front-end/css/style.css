@@ -1,14 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .cabecalho {
+
+    background-color: pink;
+    padding: 10px 0; 
+    width: 100%;
+
+}
+.titulo-site{
+
+    margin-left: 15px;
+
+}
+
+.sign_button{
+
+    margin-right: 15px;
+
+}
+
+.box{
 
     display: flex;
     align-items: center;
-    background-color: pink;
-    height: 100px;
     width: 100%;
+    gap: 20px;
+
 }
 
 .lado_esquerdo{
-
     display: flex;
     align-items: center;
     gap: 20px;
@@ -20,12 +44,20 @@
     margin-left: auto;
 
 }
+
 /*
 .index_esquerdo{
 
 
 }
 */
+
+.buttons{
+
+    height: 10px;
+    width: 10px;
+
+}
 
 .index_meio{
 
@@ -45,13 +77,13 @@
 
 }
 
-/*
+
 .index_direito{
 
-
+    margin-left: auto;
 
 }
-*/
+
 
 
 #logo {

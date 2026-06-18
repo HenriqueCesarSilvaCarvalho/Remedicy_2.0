@@ -3,11 +3,12 @@
 
     <head>
         <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"> <!-- Sem zoom automatico no Celular -->
+        <meta name = "viewport" content = "width = device-width, initial-scale=1.0"> <!-- Sem zoom automatico no Celular -->
         <meta name = "description"
             content = "Agende o horário de tomar seus remédios e acompanhe seu progresso no tratamento">
         <title> Remedicy </title>
-        <link rel = "stylesheet" href = "css/style.css"
+        <link rel = "icon" href = "images/logo_Remedicy.ico">
+        <link rel = "stylesheet" href = "css/style.css">
 
 
     </head>
@@ -18,26 +19,38 @@
         <header>    
 
             <div class = "cabecalho" >
-                <div class = "lado_esquerdo">
-                    <h1>  Remedicy  </h1>
-                    <a href="index.html">
-                        <img src = "images/logo_Remedicy.ico" id = "logo">
-                    </a>
+                <div class = "box">
+                    <div class = "lado_esquerdo">
+                        <h1 class = "titulo-site">  Remedicy  </h1>
+                        <a href="index.html">
+                            <img src = "images/logo_Remedicy.ico" id = "logo">
+                        </a>
+                    </div>
+
+                    <div class = "lado_direito">
+                        <img src = "images/icone_usuario.png" id = "icone_usuario" >
+                        <button class = "sign_button" > Sign in </button>
+                        </div>
+                    
                 </div>
 
-                <div class = "lado_direito">
-                    <img src = "images/icone_usuario.png" id = "icone_usuario" >
-                    <button> Sign in </button>
-                </div>
             </div>
             
 
         </header>
 
         <div class = "index_esquerdo">
+
+            <article class = "buttons">
+                
+                <button> Buscar Remedio </button>
+                <button> Filtrar Remedio </button>
+                <button> Legenda </button>
+
+
+
+            </article>
             
-        
-        
         </div>
 
         <div class = "index_meio">
@@ -52,7 +65,9 @@
         
         <div class = "index_direito">
             
-        
+            <button> Criar Lembrete </button>
+            <button> Remedio de Hoje </button>
+            <button> Lista Lembretes </button>
         
         </div>
 
